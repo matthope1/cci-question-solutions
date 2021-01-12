@@ -1,4 +1,6 @@
-// use this file to run solutions
+// is Unique: implement an algorithm to determine if a string has all unique characters
+// what if you cannot use  additional data structures
+
 
 function isUnique(string) {
     let newString = '';
@@ -12,14 +14,12 @@ function isUnique(string) {
             newString = newString + string[i];
         }
     }
-
     return true;
 }
 
 let myString = 'ggggggggggg';
-
 let res = isUnique(myString);
 
 console.log(res);
 
-
+//  runtime analysis O(n)
